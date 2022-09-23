@@ -1,0 +1,38 @@
+{
+    "kafka": {
+        "host": "10.0.1.120,10.0.1.86,10.0.1.16",
+        "port": 9092,
+        "topic": "iot-data-sensor"
+    },
+    "misc": {
+        "interval_ms": 1000,
+        "verbose": true
+    },
+    "sensors": {
+        "Sensor 1": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 2": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 3": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 4": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 5": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        }
+    }
+}

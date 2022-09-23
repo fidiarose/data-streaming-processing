@@ -1,0 +1,40 @@
+{
+    "mqtt": {
+        "username": "fidia",
+        "password": "12345678",
+        "host": "172.31.81.182",
+        "port": 1883,
+        "topic": "sensors"
+    },
+    "misc": {
+        "interval_ms": 1000,
+        "verbose": true
+    },
+    "sensors": {
+        "Sensor 1": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 2": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 3": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 4": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        },
+        "Sensor 5": {
+            "suhu": [20, 30],
+            "kelembapan": [36, 50],
+            "ph": [5.5, 7.8]
+        }
+    }
+}
